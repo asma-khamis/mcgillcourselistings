@@ -7,7 +7,7 @@ This course information can then be used or sorted as desired- in this case, the
 ### How to Run
 The libraries I used were Selenium, BeautifulSoup, and Pandas, which I installed using pip3. I also downloaded Chrome WebDriver for Selenium to properly operate the browser.
 
-Afterwards, the program can be run by command line or in your Python IDE of choice.
+Afterwards, the `McGillCourseListings_FINAL.py` program can be run by command line or in your Python IDE of choice.
 
 ### Explanation
 These lines open the libraries and declare the driver to be used.
