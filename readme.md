@@ -5,7 +5,9 @@ Written in Python, this web scraping program compiles all courses offered by McG
 This course information can then be used or sorted as desired- in this case, the subsequent application was to obtain recent syllabi from instructors of all courses offered in the upcoming year, then upload these entries to the McGill Science Undergraduate Society's publicly-accessible syllabus repository, [found here.](https://susmcgill.ca/science-syllabus-repository)
 
 ### How to Run
-The libraries I used were Selenium, BeautifulSoup, and Pandas, which I installed using pip3. I also downloaded Chrome WebDriver for Selenium to properly operate the browser.
+The libraries I used were Selenium, BeautifulSoup, and Pandas, which I installed using pip3. Download `requirements.txt` and type `pip install -r requirements.txt` in the command line to directly install the exact versions of the three libraries above.
+
+I also downloaded Chrome WebDriver for Selenium to properly operate the browser.
 
 Afterwards, the `McGillCourseListings_FINAL.py` program can be run by command line or in your Python IDE of choice.
 
